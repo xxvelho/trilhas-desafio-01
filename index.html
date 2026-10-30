@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hora Áurea Relojoaria</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="cabecalho">
+    <p class="selo">Relojoaria · Desde 1987</p>
+    <h1>Hora Áurea</h1>
+    <p class="descricao">Relógios selecionados com acabamento refinado, para quem valoriza cada minuto. Escolha o modelo que combina com o seu tempo.</p>
+  </header>
+
+  <main>
+    <section class="instrucoes">
+      <h2>Como usar</h2>
+      <ol>
+        <li>Confira os relógios e os preços na vitrine abaixo.</li>
+        <li>Clique em <strong>"Simular compra"</strong>.</li>
+        <li>Digite a quantidade desejada de cada modelo (use <strong>0</strong> para não comprar).</li>
+        <li>Veja o resumo e o total da compra.</li>
+      </ol>
+      <p class="promocao">Compras a partir de <strong>R$ 1.000,00</strong> ganham <strong>10% de desconto</strong>.</p>
+      <button class="botao" onclick="simularCompra()">Simular compra</button>
+    </section>
+
+    <section class="vitrine">
+      <h2>Vitrine</h2>
+      <div class="grade">
+
+        <article class="card">
+          <div class="foto">
+            <img src="assets/relogio-classico-aureo.svg" alt="Relógio Clássico Áureo, com caixa dourada, mostrador marfim e pulseira de couro marrom" width="300" height="300">
+          </div>
+          <h3>Clássico Áureo</h3>
+          <p>Caixa dourada de 40 mm, mostrador marfim e pulseira de couro legítimo.</p>
+          <span class="preco">R$ 489,90</span>
+        </article>
+
+        <article class="card">
+          <div class="foto">
+            <img src="assets/relogio-noturno-black.svg" alt="Relógio Noturno Black, com caixa preta fosca, mostrador preto e ponteiros luminosos" width="300" height="300">
+          </div>
+          <h3>Noturno Black</h3>
+          <p>Caixa preta fosca, ponteiros luminosos e resistência à água de 50 metros.</p>
+          <span class="preco">R$ 350,00</span>
+        </article>
+
+        <article class="card">
+          <div class="foto">
+            <img src="assets/relogio-executivo-aco.svg" alt="Relógio Executivo Aço, com caixa e pulseira de aço inoxidável e mostrador azul" width="300" height="300">
+          </div>
+          <h3>Executivo Aço</h3>
+          <p>Aço inoxidável escovado, mostrador azul e vidro de safira antirrisco.</p>
+          <span class="preco">R$ 429,90</span>
+        </article>
+
+        <article class="card">
+          <div class="foto">
+            <img src="assets/relogio-slim-rose.svg" alt="Relógio Slim Rosé, com caixa em ouro rosé, mostrador rosado e pulseira vinho" width="300" height="300">
+          </div>
+          <h3>Slim Rosé</h3>
+          <p>Design fino em ouro rosé, de apenas 7 mm de espessura e pulseira vinho.</p>
+          <span class="preco">R$ 250,00</span>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>Projeto desenvolvido por Elivelton Botelho Pinheiro</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

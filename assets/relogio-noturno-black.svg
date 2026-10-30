@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-labelledby="t-noturno">
+  <title id="t-noturno">Relógio Noturno Black, caixa preta fosca, mostrador preto e ponteiros luminosos</title>
+  <defs>
+    <linearGradient id="caixa-noturno" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4a4a4d"/>
+      <stop offset="0.5" stop-color="#26262a"/>
+      <stop offset="1" stop-color="#0e0e10"/>
+    </linearGradient>
+    <radialGradient id="brilho-noturno" cx="0.35" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Correia -->
+  <rect x="110" y="8" width="80" height="90" rx="10" fill="#1c1c1e"/>
+  <rect x="110" y="202" width="80" height="90" rx="10" fill="#1c1c1e"/>
+    <line x1="120" y1="12" x2="120" y2="82" stroke="#555555" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <line x1="180" y1="12" x2="180" y2="82" stroke="#555555" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <line x1="120" y1="218" x2="120" y2="288" stroke="#555555" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <line x1="180" y1="218" x2="180" y2="288" stroke="#555555" stroke-width="1.5" stroke-dasharray="4 4"/>
+    
+
+  <!-- Coroa -->
+  <rect x="224" y="140" width="14" height="20" rx="3" fill="url(#caixa-noturno)"/>
+  <rect x="228" y="143" width="2" height="14" fill="#ffffff" opacity="0.5"/>
+
+  <!-- Caixa e aro -->
+  <circle cx="150" cy="150" r="80" fill="url(#caixa-noturno)"/>
+  <circle cx="150" cy="150" r="72" fill="#161618"/>
+
+  <!-- Mostrador -->
+  <circle cx="150" cy="150" r="66" fill="#0b0b0d"/>
+  <circle cx="150" cy="150" r="66" fill="url(#brilho-noturno)"/>
+    <line x1="150" y1="92" x2="150" y2="106" stroke="#cfe9c4" stroke-width="4" stroke-linecap="round" transform="rotate(0 150 150)"/>
+    <line x1="150" y1="94" x2="150" y2="100" stroke="#cfe9c4" stroke-width="2" stroke-linecap="round" transform="rotate(30 150 150)"/>
+    <line x1="150" y1="94" x2="150" y2="100" stroke="#cfe9c4" stroke-width="2" stroke-linecap="round" transform="rotate(60 150 150)"/>
+    <line x1="150" y1="92" x2="150" y2="106" stroke="#cfe9c4" stroke-width="4" stroke-linecap="round" transform="rotate(90 150 150)"/>
+    <line x1="150" y1="94" x2="150" y2="100" stroke="#cfe9c4" stroke-width="2" stroke-linecap="round" transform="rotate(120 150 150)"/>
+    <line x1="150" y1="94" x2="150" y2="100" stroke="#cfe9c4" stroke-width="2" stroke-linecap="round" transform="rotate(150 150 150)"/>
+    <line x1="150" y1="92" x2="150" y2="106" stroke="#cfe9c4" stroke-width="4" stroke-linecap="round" transform="rotate(180 150 150)"/>
+    <line x1="150" y1="94" x2="150" y2="100" stroke="#cfe9c4" stroke-width="2" stroke-linecap="round" transform="rotate(210 150 150)"/>
+    <line x1="150" y1="94" x2="150" y2="100" stroke="#cfe9c4" stroke-width="2" stroke-linecap="round" transform="rotate(240 150 150)"/>
+    <line x1="150" y1="92" x2="150" y2="106" stroke="#cfe9c4" stroke-width="4" stroke-linecap="round" transform="rotate(270 150 150)"/>
+    <line x1="150" y1="94" x2="150" y2="100" stroke="#cfe9c4" stroke-width="2" stroke-linecap="round" transform="rotate(300 150 150)"/>
+    <line x1="150" y1="94" x2="150" y2="100" stroke="#cfe9c4" stroke-width="2" stroke-linecap="round" transform="rotate(330 150 150)"/>
+
+  <!-- Ponteiros marcando 10:10 -->
+  <line x1="150" y1="150" x2="150" y2="116" stroke="#e8f5e0" stroke-width="5" stroke-linecap="round" transform="rotate(-60 150 150)"/>
+  <line x1="150" y1="150" x2="150" y2="98" stroke="#e8f5e0" stroke-width="3.5" stroke-linecap="round" transform="rotate(60 150 150)"/>
+  <line x1="150" y1="162" x2="150" y2="94" stroke="#e0701f" stroke-width="1.5" stroke-linecap="round" transform="rotate(150 150 150)"/>
+  <circle cx="150" cy="150" r="5" fill="#e0701f"/>
+  <circle cx="150" cy="150" r="2" fill="#0b0b0d"/>
+</svg>
